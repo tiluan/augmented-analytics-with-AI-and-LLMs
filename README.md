@@ -70,7 +70,3 @@ Este projeto utiliza técnicas de análise aumentada com Inteligência Artificia
 3. Commit suas mudanças (`git commit -am 'Adiciona nova feature'`)
 4. Faça push para a branch (`git push origin feature/nova-feature`)
 5. Abra um Pull Request
-
-## Licença
-
-Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo LICENSE para mais detalhes.
