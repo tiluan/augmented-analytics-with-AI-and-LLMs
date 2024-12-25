@@ -29,7 +29,7 @@ def dsa_read_pdf(directory_path):
     return documents
 
 # Executa a função para carregar os documentos
-dsa_doc = dsa_read_pdf('arquivos/')
+dsa_doc = dsa_read_pdf('files/')
 
 # Cria o gerador de embeddings
 gerador_embeddings = OpenAIEmbeddings(api_key = os.environ['OPENAI_API_KEY'])
