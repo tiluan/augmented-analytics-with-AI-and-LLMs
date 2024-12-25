@@ -10,11 +10,15 @@ Este projeto utiliza técnicas de análise aumentada com Inteligência Artificia
 - Respostas a perguntas utilizando OpenAI GPT
 - Interface web com Flask
 
+## Requisitos
+
+- Python 3.8+
+
 ## Instalação
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/augmented-analytics-with-AI-and-LLMs.git
+    git clone https://github.com/tiluan/augmented-analytics-with-AI-and-LLMs.git
     cd augmented-analytics-with-AI-and-LLMs
     ```
 
@@ -30,9 +34,11 @@ Este projeto utiliza técnicas de análise aumentada com Inteligência Artificia
     ```
 
 4. Configure as variáveis de ambiente:
-    Crie um arquivo [.env](http://_vscodecontentref_/0) na raiz do projeto e adicione suas chaves de API do OpenAI:
+    Crie um arquivo [.env] na raiz do projeto e adicione suas chaves de API do OpenAI:
     ```env
-    OPENAI_API_KEY=your_openai_api_key
+    OPENAI_API_KEY=sua_chave_openai_api
+
+    A chave pode ser obtida através do site [OpenAI](https://platform.openai.com/api-keys)
     ```
 
 ## Uso
@@ -47,7 +53,15 @@ Este projeto utiliza técnicas de análise aumentada com Inteligência Artificia
     http://127.0.0.1:5000
     ```
 
-3. Carregue seus documentos PDF na pasta [files](http://_vscodecontentref_/1) e faça perguntas através da interface web.
+3. Carregue seus documentos PDF na pasta **files** e faça perguntas através da interface web.
+
+## Versões dos Pacotes
+
+- Flask 2.0.1
+- openai 0.10.2
+- langchain 0.0.1
+- chromadb 0.3.21
+- python-dotenv 0.19.0
 
 ## Contribuindo
 
